@@ -4,7 +4,7 @@ class Database
 {
 	public $conn = NULL;
 	private $server = 'localhost';
-	private $dbName = 'blog';
+	private $dbName = 'company';
 	private $user = 'root';
 	private $password = '';
         
@@ -27,3 +27,4 @@ class Database
 		}
 	}
 }
+?>
