@@ -1,4 +1,10 @@
-<!DOCTYPE html>
-<body>
-    <h1> lee huy ngo</h1>
-</body>
+<?php
+	require('Model/Database.php');
+	$db = new Database;
+	$db->connect();
+
+	/*Xử lý các request*/
+
+
+	$db->closeDatabase();
+?>
